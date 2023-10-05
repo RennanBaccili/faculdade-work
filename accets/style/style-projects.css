@@ -1,0 +1,86 @@
+
+/* //separação do conteudo */
+.sectionproject{
+    min-height: 100vh;
+    
+}
+
+.projects{
+    max-width: 140vh;
+    margin: 0 auto;
+    max-height: 140vh;
+    
+}
+
+.projects-content{
+    display: flex;
+    gap: 2vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.card-img > img{
+    width: 100%;
+}
+
+.card-title {
+    padding: 0 20px;
+    display: flex;
+    width: 100%;
+    background-color:rgb(56, 91, 121);
+}
+
+a{
+    text-decoration: none;
+}
+
+.card-title a > h1{
+    color: white;
+    font-weight: bold;
+}
+.tecnologias strong{
+    color: #A6120D;
+
+}
+
+.card-description{
+    align-items: flex-start;
+    width: 100%;
+}
+
+
+.links{
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+
+.links .git{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+
+
+.links .git:hover{
+    font-weight: bold;
+    background-color: white;
+    color: black;
+}

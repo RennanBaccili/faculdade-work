@@ -1,0 +1,43 @@
+.cabecario{
+    width: 100%;
+    position: fixed;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    background-color: #385B79;
+    color: white;
+}
+
+.container a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.container ul{
+    max-width: 1200px;
+    list-style: none;
+    display: flex;
+}
+
+.container ul li{
+    padding: 20px;
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+
+.container ul li a:hover{
+    border-bottom: black;
+    font-weight: bold;
+}
+
+
+.container h1{
+    font-size: 3vh;
+    font-weight: bold;
+}
+
